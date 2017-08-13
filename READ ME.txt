@@ -1,0 +1,22 @@
+******************* READ ME *******************
+
+To run these BM25 code in python, you need to make sure your python version is 2.7.10
+
+and have installed libraries: json,os,re,math
+
+You can run  python file in the submitted folder by using command line "python task2.py"
+
+To make sure u get the exactly the required result of the task in the output BM25.txt file, u can rename the submitted files,
+
+or you can change the output files' name in the code line "f = open("theNameOfTheFile.txt", "a")"
+
+or clean the contents in it, before you run the python file, otherwise you will get duplicate result than expected,
+
+thank you.
+
+
+******************************************************************************************************************
+
+To run these search code in java, You can run java class in any java compiler with required packages
+
+Java file is in out/production/hw4

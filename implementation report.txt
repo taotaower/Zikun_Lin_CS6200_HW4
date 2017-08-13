@@ -1,0 +1,25 @@
+************************************** Task1 **************************************
+
+modified the java file the professor gave to us,
+
+first modification: change every place where call the 'analyzer' to call 'sAnalyzer'
+
+to make sure to use “SimpleAnalyzer” as my analyzer.
+
+second modification: change show 3 results to show 100 results in the line
+
+"TopScoreDocCollector collector = TopScoreDocCollector.create(100, true);"
+
+third modification: move two code lines
+" IndexSearcher searcher = new IndexSearcher(reader);
+TopScoreDocCollector collector = TopScoreDocCollector.create(100, true); "
+
+To make sure we can do multiple queries in once running.
+
+************************************** Task2 **************************************
+
+Use the 1-gram-tf file of HW3 and get the td-idf of the corpus
+
+after this implement the rating algorithm of bm25, to make sure each query will get
+
+a list of a hundred documentIDs with scores and ordering in non-increasing order
